@@ -58,7 +58,7 @@ app.prepare().then(() => {
     res.status(200).json(obj);
   });
 
-  //endpoint for list of books
+  //endpoint for list of all books
   server.get("/books", async (req, res) => {
     const db = admin.firestore();
 
